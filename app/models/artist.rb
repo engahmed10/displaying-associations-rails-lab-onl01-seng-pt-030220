@@ -1,8 +1,8 @@
-class Song < ActiveRecord::Base
+class Artist < ActiveRecord::Base
   has_many :songs
 
   def count_songs
-    Self.artist
+    Self.songs.count
 
   end
 
