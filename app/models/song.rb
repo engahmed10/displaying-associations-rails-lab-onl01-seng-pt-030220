@@ -2,11 +2,11 @@ class Song < ActiveRecord::Base
   belongs_to :artist
 
   def artist_name
-     
+
 
   end
 
-  def name_artist_format
+  def artist_name
     "#{self.artist.name} - #{self.title}"
   end
 end
