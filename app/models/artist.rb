@@ -3,8 +3,11 @@ class Artist < ActiveRecord::Base
 
   def song_count
     Self.songs.count
-    binding.pry
+
 
   end
 
 end
+
+
+    binding.pry
