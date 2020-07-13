@@ -8,6 +8,3 @@ class Artist < ActiveRecord::Base
   end
 
 end
-
-
-    binding.pry
