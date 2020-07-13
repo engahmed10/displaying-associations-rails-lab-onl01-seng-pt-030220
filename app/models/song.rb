@@ -9,4 +9,7 @@ class Song < ActiveRecord::Base
   def artist_name
     "#{self.artist.name} - #{self.title}"
   end
+  def artist_name_f
+    
+  end
 end
